@@ -40,7 +40,7 @@ def scan_tokens(expr):
             if token == "/":
                 tokens.append(("SLASH", token))
         else:
-            print("Invalid token:", token)
+            print("Erro: Unexpected token:", token)
             return None
     return tokens
 
